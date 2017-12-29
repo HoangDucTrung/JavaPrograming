@@ -1,19 +1,19 @@
 package com.trunghd;
 
 public class StaticTest {
-    private int numInstances = 0;
-    private String name;
+    private static int numInstances = 0;
+    private static String name;
 
     public StaticTest(String name) {
         this.name = name;
         numInstances++;
     }
 
-    public int getNumInstances() {
+    public static int getNumInstances() {
         return numInstances;
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
