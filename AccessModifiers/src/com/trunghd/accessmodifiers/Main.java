@@ -21,10 +21,10 @@ public class Main {
         trunghdAccount.withdraw(-200);
         trunghdAccount.deposit(-20);
         trunghdAccount.calculateBalance();
-        trunghdAccount.balance = 5000;
+//        trunghdAccount.balance = 5000;
         
         System.out.println("Balanc on account is " + trunghdAccount.getBalance());
-        trunghdAccount.transactions.add(4500);
+//        trunghdAccount.transactions.add(4500);
         trunghdAccount.calculateBalance();
     }
     
